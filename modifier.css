@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body
+{
+	
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background:#E3F0FE;
+}
+
+
+
+ input{
+	background:#E3F0FE ;
+	border: none;
+	width: 300px;
+	border-radius: 4px;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	font-family: 'Poppins';
+}
+
+ label {
+	color: black;
+	font-family: 'Poppins';
+}
+.ff{
+	display: flex;
+	flex-direction: row;
+	display: flex;
+	 flex-wrap: wrap;
+	position:relative;
+	width: 380px;
+	height: 650px;
+	background: skyblue;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.bloc{
+	display:flex;
+	flex-wrap:wrap ;
+	justify-content:center ;
+	margin:auto;
+
+
+
+
+
+}
+.cartes{
+	border: none;
+	border-radius: 20px;
+	padding-left: 80px;
+	padding-right: 10px;
+	padding-top: 60px;
+	padding-bottom: 0px;
+	margin-left: 15px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	justify-content:center ;
+	width:400px;
+	height: 500px;
+background: white;
+}
+
+textarea {
+	background:#E3F0FE;
+	border: none;
+}
+.sub{
+	background:#E3F0FE ;
+	border: none;
+	border-radius: 5px;
+	width: 100px;
+	height: 40px;
+	margin-left: 100px;
+	box-shadow: 5px;
+}
+.sub:hover 
+{
+	background-color: #a9d4b2;
+  border-radius:10px;
+
+}
